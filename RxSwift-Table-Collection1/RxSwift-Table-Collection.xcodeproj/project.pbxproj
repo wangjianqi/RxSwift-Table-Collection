@@ -302,7 +302,6 @@
 				6A0DF5AC1F6C0CFC002827B3 /* Frameworks */,
 				6A0DF5AD1F6C0CFC002827B3 /* Resources */,
 				66C22A5F2A522C50C22656D3 /* [CP] Embed Pods Frameworks */,
-				B8D9D15DA790931D35576291 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -375,7 +374,7 @@
 			files = (
 			);
 			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-RxSwift-Table-Collection/Pods-RxSwift-Table-Collection-frameworks.sh",
+				"${PODS_ROOT}/Target Support Files/Pods-RxSwift-Table-Collection/Pods-RxSwift-Table-Collection-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
 				"${BUILT_PRODUCTS_DIR}/Differentiator/Differentiator.framework",
 				"${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework",
@@ -404,7 +403,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RxSwift-Table-Collection/Pods-RxSwift-Table-Collection-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-RxSwift-Table-Collection/Pods-RxSwift-Table-Collection-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		6CDE6AD6C14F102A110678A3 /* [CP] Check Pods Manifest.lock */ = {
@@ -423,21 +422,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		B8D9D15DA790931D35576291 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RxSwift-Table-Collection/Pods-RxSwift-Table-Collection-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
